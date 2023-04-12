@@ -2,9 +2,10 @@
 @ Add to github
    > git init
    > ls   /--> list of file in the folder
-   > git add .   /--> add file in github                                  (or)        git remote add origin <git url>
+   > git remote add origin <git url>
+   > git add .   /--> add file in github                                        
    > git commit -m "message"
-   > git push -u origin <branch name> ..like master/main              (or)        git push
+   > git push -u origin <branch name> ..like master/main
 
 @ To clone a project
    >git clone <git url>
@@ -13,10 +14,14 @@
     error:remote origin already exists
     
         #code
-            >git remote --verbose   /-->To find the current github url
-            >git remote set-url origin <github url>  /-->paste the url of the github account.
+            > git remote --verbose   /-->To find the current github url
+            > git remote set-url origin <github url>  /-->paste the url of the github account.
 
     error:The requested URL returned error: 403
+            > press windows key ->credential manager ->windows credential ->generic credential ->githttp:/github.com (remove username and password)
+            > git add .
+            > git commit -m "message"
+            > git push -u origin <branch name> ..like master/main
 
 
 
