@@ -1,4 +1,4 @@
-a:int = 10
+a:int = 20
 b:int = 50
 
 a=b+a
