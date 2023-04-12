@@ -12,11 +12,11 @@
 @ error
     error:remote origin already exists
     
-    #code
-        >git remote --verbose   /-->To find the current github url
-        >git remote set-url origin <github url>  /-->paste the url of the github account.
+        #code
+            >git remote --verbose   /-->To find the current github url
+            >git remote set-url origin <github url>  /-->paste the url of the github account.
 
-
+    error:The requested URL returned error: 403
 
 
 
